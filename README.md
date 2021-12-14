@@ -21,4 +21,13 @@ The back-end of RF-Wise runs on the EPC Gen2 protocol using:
 ## Guide
 The following guide assumes that the environment has been configured, especially the GNU Radio.
 1) Download our codes and connect the devices;
-2) Set your PC's IP adress as 192.168.40.xx, open a ternimal and input `uhd_find_device`
+2) Set your PC's IP adress as 192.168.40.xx, open a ternimal and input `uhd_find_device` to ensure the connection;
+3) Using gen_ofdm_cw.m to generate the customized CW, and paste it into "RF_WISE/gr-rf-wise/include/rfid/global_vars.h";
+4) Open a ternimal in "RF_WISE/gr-rf-wise/build/" and input `cd ../;sudo rm -rf build;mkdir build;cd build;cmake ../;sudo make install;sudo ldconfig`;
+5) Open a ternimal in "RF_WISE/gr-rf-wise/apps/" and input `sudo GR_SCHEDULER=STS nice -n -20 python ./reader.py`.
+6) In "RF_WISE/gr-rf-wise/misc/code/" you can observe the transmitted and received baseband signals using plot_signal.m, while the raw data are stored in "RF_WISE/gr-rf-wise/misc/data/";
+7) The sensing feature extraction is similar as that of Wi-Fi CSI measurement, which you can handle on your own, as well as the RFID signal preprocessing, e.g., segmenting ON/OFF feilds of tag's EPC responses.
+
+## Notes
+Some common issues may appear when implement RF-Wise, including but not limited to:
+1) 
