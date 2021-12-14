@@ -33,5 +33,5 @@ Some common issues may appear when implement RF-Wise, including but not limited 
 1) You may need to update the FPGA images for USRP X310, https://files.ettus.com/manual/page_images.html;
 2) You may need to input `sudo sysctl -w net.core.wmem_max=xxxx` before step 5 in Guide, wherein the "xxxx" will be reported in the ternimal after step 5 in Guide ~lol~;
 3) Issues about the environment configuration can be found at https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux;
-4) Long-running operation may rise unknown fault, power off and wait for a few seconds may fix it;
+4) Long-running operation may rise unknown fault, power off the USRP and wait for a few seconds may fix it;
 5) To be continued...
