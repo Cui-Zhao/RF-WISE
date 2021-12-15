@@ -1,7 +1,7 @@
 clc,clear all,close all
 
 B = 25;                                                % bandwidth(MHz)
-N = 150;                                               % Number of subcarriers (IFFT points)
+N = 150;                                               % Number of subcarriers (IFFT points), N < (B/fBLF*mu), mu = 1/2 when meeting 1/0 bit, respectively.
 alpha = 6;                                             % Scaling factor
 win = [0.5, ones(1,N-2),0.5];                          % Window
 TS_f = sign(rand(1,N)*2-1);                            % Training sequence (for channel measurement) in the frequency domain, BPSK
