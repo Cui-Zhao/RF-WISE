@@ -14,24 +14,13 @@ RF-Wise contains three main components, including 1) _Multi-carrier Frequency Sp
 
 ## Observations
 
-RF-Wise is designed based on the following observation:
+RF-Wise is designed based on the following observations:
 
 1) The RFID signal contains a continuous wave to power tag’s backscattering, which is configured with a constant amplitude value usually. We observe that the tag’s backscattering is not sensitive to the waveform format of the continuous wave — even it is designed to be another type of sequences with enough energy, tags may still be activated and functioned normally. This observation inspires us to “customize” the continuous wave by employing the frequency multiplexing, so
 that we can collect multiple sensing samples over frequencies concurrently from each query (no frequency hopping). 
 
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
