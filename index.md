@@ -4,14 +4,6 @@ For RFID-based sensing, great efforts have been made to increase the sensing sam
 
 To the best of our knowledge, RF-WISE is the first research to bring a positive answer!
 
-## Overview
-
-RF-Wise contains three main components, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
-
-1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
-2) Harnessing more allowable bandwidth to enrich the sensing samples further, and enhance the timing resolution of sensing as well, after a set of the hardware related issues are addressed.
-3) Extracting representative and effective features from the sensing samples obtained by RF-Wise, to be used by various applications.
-
 ## Observations
 
 RF-Wise is designed based on the following observations:
@@ -21,6 +13,17 @@ that we can collect multiple sensing samples over frequencies concurrently from 
 
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
+## Overview
+
+RF-Wise contains three main components, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
+
+1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
+2) Harnessing more allowable bandwidth to enrich the sensing samples further, and enhance the timing resolution of sensing as well, after a set of the hardware related issues are addressed.
+3) Extracting representative and effective features from the sensing samples obtained by RF-Wise, to be used by various applications.
+
+
+
+## Implementation
 
 [Link](url) and ![Image](src)
 ```
