@@ -11,13 +11,13 @@ RF-Wise is designed based on the following observations:
 1) The tag’s backscattering is not sensitive to the waveform format of the continuous wave — even it is designed to be another type of sequences with enough energy, tags may still be activated and functioned normally. This observation inspires us to “customize” the continuous wave by employing the frequency multiplexing.
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
- ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/main/pic/ob.png)
- 
+ ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/ob.png)‘’‘
+
 ## Overview
 
 RF-Wise contains three main components, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
 
- ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/main/pic/ov.png)
+ ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/ov.png)
 
 1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
 2) Harnessing Hardware-constrained Wider-band. Harnessing more allowable bandwidth to enrich the sensing samples further, and enhance the timing resolution of sensing as well, after a set of the hardware related issues are addressed.
@@ -35,5 +35,5 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 1) In the first setting, we start from the pure wine and add different volumes of water, e.g., 5 mL (2.5%), 10 mL (5%) and 15 mL (7.5%), and show the features obtained by RF-Wise. From Fig we can see that with different volumes of water mixed into the wine, some sub-carriers exhibit distinct frequency responses, which provides an opportunity to distinguish them.
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Fig depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
- ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/main/pic/f.png)
+ ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/f.png)
 
