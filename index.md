@@ -9,7 +9,6 @@ To the best of our knowledge, RF-WISE is the first research to bring a positive 
 RF-Wise is designed based on the following observations:
 
 1) The tag’s backscattering is not sensitive to the waveform format of the continuous wave — even it is designed to be another type of sequences with enough energy, tags may still be activated and functioned normally. This observation inspires us to “customize” the continuous wave by employing the frequency multiplexing.
-
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
  ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/ob.png)
@@ -21,15 +20,12 @@ RF-Wise contains three main components, including 1) _Multi-carrier Frequency Sp
  ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/ov.png)
 
 1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
- 
 2) Harnessing Hardware-constrained Wider-band. Harnessing more allowable bandwidth to enrich the sensing samples further, and enhance the timing resolution of sensing as well, after a set of the hardware related issues are addressed.
-
 3) Sensing Feature Extraction. Extracting representative and effective features from the sensing samples obtained by RF-Wise, to be used by various applications.
 
 ## Implementation
 
 1) Hardware. RF-Wise is developed using one USRP X310 with one SBX-40 daughterboard. Two directional antennas (Laird S9028PCR with the gain of 8 dBi) are installed to transmit and receive signals to and from the Alien 9640 RFID tag, respectively. USRP is connected to a desktop of an Intel Core i9-9900K CPU, 32 GB RAM, Intel Converged Network Adapter X520-DA1 and 10 Gigabit Ethernet Cable for a high bit-rate sensing data collection.
-
 2) Software development. The back-end of RF-Wise runs on the EPC Gen2 protocol using GNU Radio 3.7 and UHD 3.15 on Ubuntu 18.04.
 
 ## Sensing Example
