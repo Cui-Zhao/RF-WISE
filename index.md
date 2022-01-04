@@ -13,6 +13,7 @@ RF-Wise is designed based on the following observations:
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
 <img src="pic/ob.jpg?raw=true" alt="ob.jpg" width="480">
+
 Fig. 1. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
 
 ## Overview
@@ -20,6 +21,7 @@ Fig. 1. Tag's backscattering is not sensitive to the waveform format of continuo
 RF-Wise contains three main components shown in Fig.2, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
 
 <img src="pic/ov.jpg?raw=true" alt="ov.jpg" width="480">
+
 Fig. 2. The overview of the RF-Wise design.
 
 1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
@@ -43,4 +45,5 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Fig depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
 <img src="pic/f.jpg?raw=true" alt="f.jpg" width="480">
+
 Fig. 3. Sensing features of RF-Wise for (a) the wine by adding different volumes of water and (b) the milk after it is opened for one to four hours.
