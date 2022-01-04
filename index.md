@@ -1,4 +1,4 @@
-## RF-WISE
+## RF-WISE Motivation
 
 For RFID-based sensing, great efforts have been made to increase the sensing sample’s diversity by using frequency hopping or tag array, which however are not effective due to the inherently large latency between two sample collections. Some recent works propose to utilize an extra device to transmit additional wide-band signals to improve the sensing fidelity. The cost (from the high-end extra device) and overhead (to synchronize this extra signal with the RFID signal) are still large. **We thus wonder naturally whether we can improve RFID sensing without such extra costs and overhead?** 
 
