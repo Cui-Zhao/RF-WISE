@@ -4,31 +4,31 @@ For RFID-based sensing, great efforts have been made to increase the sensing sam
 
 To the best of our knowledge, RF-WISE is the first research to bring a positive answer!
 
-## Observations
-
-RF-Wise is designed based on the following observations:
-
-1) The tag’s backscattering is not sensitive to the waveform format of the continuous wave — even it is designed to be another type of sequences with enough energy, tags may still be activated and functioned normally, as shown in Fig.1. This observation inspires us to “customize” the continuous wave by employing the frequency multiplexing.
-
-2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
-
-<img src="pic/ob.jpg?raw=true" alt="ob.jpg" width="480">
-
-Fig. 1. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
-
 ## Overview
 
-RF-Wise contains three main components shown in Fig.2, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
+RF-Wise contains three main components shown in Fig.1, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
 
 <img src="pic/ov.jpg?raw=true" alt="ov.jpg" width="480">
 
-Fig. 2. The overview of the RF-Wise design.
+Fig. 1. The overview of the RF-Wise design.
 
 1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
 
 2) Harnessing Hardware-constrained Wider-band. Harnessing more allowable bandwidth to enrich the sensing samples further, and enhance the timing resolution of sensing as well, after a set of the hardware related issues are addressed.
 
 3) Sensing Feature Extraction. Extracting representative and effective features from the sensing samples obtained by RF-Wise, to be used by various applications.
+
+## Observations
+
+RF-Wise is designed based on the following observations:
+
+1) The tag’s backscattering is not sensitive to the waveform format of the continuous wave — even it is designed to be another type of sequences with enough energy, tags may still be activated and functioned normally, as shown in Fig.2. This observation inspires us to “customize” the continuous wave by employing the frequency multiplexing.
+
+2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
+
+<img src="pic/ob.jpg?raw=true" alt="ob.jpg" width="480">
+
+Fig. 2. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
 
 ## Implementation
 
