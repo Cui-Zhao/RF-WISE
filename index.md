@@ -38,7 +38,7 @@ Fig. 2. The overview of the RF-Wise design.
 
 ## Sensing Example
 
-We introduce two challenging settings intentionally to demonstrate the necessary to use fine-grained features for liquid classification shown in Fig.3.
+We introduce two challenging settings intentionally to demonstrate the necessary to use fine-grained features for liquid classification, as shown in Fig.3.
 
 1) In the first setting, we start from the pure wine and add different volumes of water, e.g., 5 mL (2.5%), 10 mL (5%) and 15 mL (7.5%), and show the features obtained by RF-Wise. From Fig we can see that with different volumes of water mixed into the wine, some sub-carriers exhibit distinct frequency responses, which provides an opportunity to distinguish them.
 
