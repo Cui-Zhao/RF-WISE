@@ -12,10 +12,7 @@ RF-Wise is designed based on the following observations:
 
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
-<img src="pic/f.jpg?raw=true" alt="f.jpg">
-
-<img src="pic/f.jpg">
-
+<img src="pic/ob.png?raw=true" alt="f.png">
 ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/ob.png)
 
 ## Overview
@@ -43,5 +40,6 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 1) In the first setting, we start from the pure wine and add different volumes of water, e.g., 5 mL (2.5%), 10 mL (5%) and 15 mL (7.5%), and show the features obtained by RF-Wise. From Fig we can see that with different volumes of water mixed into the wine, some sub-carriers exhibit distinct frequency responses, which provides an opportunity to distinguish them.
 
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Fig depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
-
+3) 
+<img src="pic/f.jpg?raw=true" alt="f.jpg">
 <img src="pic/f.jpg">
