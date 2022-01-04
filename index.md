@@ -41,4 +41,3 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Fig depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
 <img src="/f.png"/>
-
