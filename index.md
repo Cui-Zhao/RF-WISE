@@ -18,7 +18,7 @@ RF-Wise is designed based on the following observations:
 
 RF-Wise contains three main components, including 1) _Multi-carrier Frequency Spreading_, 2) _Harnessing Hardware-constrained Wider-band_ and 3) _Sensing Feature Extraction_.
 
-![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/ov.png)
+![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/ov.png)
 
 1) Multi-carrier Frequency Spreading. Multiplexing frequencies by customizing continuous wave to obtain multi-dimensional sensing samples from different frequencies.
 
