@@ -14,6 +14,8 @@ RF-Wise is designed based on the following observations:
 
 <img src="pic/f.jpg?raw=true" alt="f.jpg">
 
+<img src="pic/f.jpg">
+
 ![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/ob.png)
 
 ## Overview
@@ -42,4 +44,4 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Fig depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
-![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/f.png)
+![Image](https://github.com/Cui-Zhao/RF-WISE/blob/gh-pages/pic/f.jpg)
