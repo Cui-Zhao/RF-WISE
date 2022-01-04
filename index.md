@@ -13,7 +13,6 @@ RF-Wise is designed based on the following observations:
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in current RFID sensing.
 
 <img src="/ob.png"/>
-![image]()
 
 ## Overview
 
