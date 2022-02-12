@@ -1,8 +1,15 @@
 ## Motivation
 
-For RFID-based sensing, great efforts have been made to increase the sensing sample’s diversity by using frequency hopping or tag array, which however are not effective due to the inherently large latency between two sample collections. Some recent works propose to utilize an extra device to transmit additional wide-band signals to improve the sensing fidelity. The cost (from the high-end extra device) and overhead (to synchronize this extra signal with the RFID signal) are still large. **We thus wonder naturally whether we can improve RFID sensing without such extra costs and overhead?** 
+RF-Wise is a general tool to benefit the RFID-based sensing application designs with the following advantages:
 
-To the best of our knowledge, RF-WISE is the first research to bring a positive answer!
+* A software-based design without using any extra device.
+* Compatible to EPC Gen2 within the ISM band.
+* Using only one tag for sensing.
+
+The applications include:
+* Food and liquid sensing.
+* Contactless HCI.
+* Smart manufacturing
 
 ## Overview
 
