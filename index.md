@@ -32,7 +32,7 @@ RF-Wise is designed based on the following observations:
 
 <img src="pic/fig2.jpg?raw=true" alt="fig2.jpg" width="480">
 
-Fig. 2. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
+Figure 2. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
 
 ## Sensing Example
 We introduce two challenging settings intentionally to demonstrate the necessary to use the fine-grained sensing features in the liquid classification, as shown in Figure 3.
@@ -43,7 +43,7 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 
 <img src="pic/fig3.jpg?raw=true" alt="fig3.jpg" width="480">
 
-Fig. 3. Sensing features of RF-Wise for (a) the wine by adding different volumes of water and (b) the milk after it is opened for one to four hours.
+Figure 3. Sensing features of RF-Wise for (a) the wine by adding different volumes of water and (b) the milk after it is opened for one to four hours.
 
 ## Publication
 Cui Zhao, Zhenjiang Li, Han Ding, Ge Wang, Wei Xi, Jizhong Zhao, "RF-Wise: Pushing the Limit of RFID-based Sensing", in Proceedings of IEEE INFOCOM, 2022.
