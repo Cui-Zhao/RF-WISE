@@ -41,7 +41,7 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Figure 3(b) depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
-<img src="pic/f3.png?raw=true" alt="f3.png" width="480">
+<img src="pic/fig3.png?raw=true" alt="fig3.png" width="480">
 
 Fig. 3. Sensing features of RF-Wise for (a) the wine by adding different volumes of water and (b) the milk after it is opened for one to four hours.
 
