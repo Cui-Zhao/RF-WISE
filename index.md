@@ -1,5 +1,5 @@
 ## Motivation
-RF-Wise is a general tool to benefit the RFID-based sensing application designs with the following advantages. The **source code** is available on [GitHub](https://github.com/Cui-Zhao/RF-WISE).
+RF-Wise is a general tool to benefit the RFID-based sensing application designs with the following advantages. The **source code** is available on [Github](https://github.com/Cui-Zhao/RF-WISE).
 * A software-based design without using any extra device
 * Compatible to EPC Gen2 within the ISM band
 * Using only one tag for sensing
