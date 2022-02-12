@@ -8,7 +8,6 @@ The applications include:
 * Food and liquid sensing
 * Contactless HCI
 * Smart manufacturing
-* ...
 
 ## Overview
 RF-Wise contains three main components as shown in Figure 1.
