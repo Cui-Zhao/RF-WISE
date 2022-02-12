@@ -30,7 +30,7 @@ RF-Wise is designed based on the following observations:
 
 2) Moreover, improved by using more allowable bandwidth in RFID, e.g., 26 MHz in U.S., the sensing dimension can be increased up further, which thus fundamentally breaks the limit in the current RFID sensing.
 
-<img src="pic/ob.jpg?raw=true" alt="ob.jpg" width="480">
+<img src="pic/fig2.jpg?raw=true" alt="fig2.jpg" width="480">
 
 Fig. 2. Tag's backscattering is not sensitive to the waveform format of continuous wave _s_.
 
@@ -41,7 +41,7 @@ We introduce two challenging settings intentionally to demonstrate the necessary
 
 2) In the second setting, we open one bottle of fresh milk and collect its sensing features after one, two and four hours (in the environment with a temperature of 30∼35C). Figure 3(b) depicts that their features show differences across sub-carriers and we highlight the most evident ones by red circles. 
 
-<img src="pic/fig3.png?raw=true" alt="fig3.png" width="480">
+<img src="pic/f.jpg?raw=true" alt="f.jpg" width="480">
 
 Fig. 3. Sensing features of RF-Wise for (a) the wine by adding different volumes of water and (b) the milk after it is opened for one to four hours.
 
